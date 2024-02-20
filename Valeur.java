@@ -1,4 +1,4 @@
-package projetBlackJak1;
+package blackjack;
 
 public enum Valeur {
 	ACE("A",1),

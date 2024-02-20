@@ -1,4 +1,4 @@
-package projetBlackJak1;
+package blackjack;
 
 public class Carte {
    private Couleur couleurs;
@@ -42,7 +42,7 @@ public void tourner() {
 
 public void AfficheCarte() {
 	if(affiche)
-		System.out.printf("    "+valeurs.getNomval()+" || "+couleurs.getNomcol()+"          ");
+		System.out.printf("   {   "+valeurs.getNomval()+" || "+couleurs.getNomcol()+"  }      ");
 	else
 		System.out.printf("     cache");
 	}

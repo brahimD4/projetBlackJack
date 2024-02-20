@@ -1,4 +1,4 @@
-package projetBlackJak1;
+package blackjack;
 
 import java.util.ArrayList;
 import java.util.Collections;
